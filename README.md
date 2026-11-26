@@ -9,3 +9,5 @@ join the game
 Accurate at ±64 blocks, and occasionally will lose players on the map
 A ton of smaller issues
 almost fully vibe coded, will replace ai code with human written code and bug fixes as I learn rust
+
+The shell.nix file is only useful if your on nixos wayland
