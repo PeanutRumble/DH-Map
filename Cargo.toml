@@ -1,0 +1,15 @@
+[package]
+name = "mcradar"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rusqlite = { version = "0.32", features = ["bundled"] }
+# winit picks Wayland or X11 at runtime (both enabled by default features).
+winit = "0.30"
+# CPU framebuffer; also supports both Wayland and X11 by default.
+softbuffer = "0.4"
+clap = { version = "4", features = ["derive"] }
+
+[profile.dev]
+opt-level = 2
